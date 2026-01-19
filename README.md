@@ -2,8 +2,9 @@
 
 This repository contains the **complete supplementary material** for the paper:
 
-> **Selective Medical Intelligence: Optimising AI-Based Breast Cancer Diagnosis Classification Through Adaptive Data Filtering**  
-> *Submitted to* **NEUROCOMPUTING**
+> **Selective Medical Intelligence: Optimising AI-Based Breast Cancer Diagnosis Classification Through Adaptive Data Filtering**
+> Nicholas Christakis, Panagiotis Tirchas, Dimitris Drikakis
+> *Submitted to* **NEUROCOMPUTING** (2026)
 
 The repository includes:
 1. The **synthetic data generator** used to produce controlled tabular datasets.
@@ -115,3 +116,72 @@ Binary target variable Y
 
 ---
 
+## 📊 Supplementary PDF Contents
+
+The file **Synthetic_data_analysis.pdf** contains the full synthetic experiment suite used in the paper.
+
+Experimental design
+
+Total features: 20 continuous predictors
+
+Sample size: 10,000 (plus 10% and 1% subsamples)
+
+Oracle-informative features:
+
+k=2
+
+k=10
+
+k=18
+
+Binary outcome: approximately balanced classes
+
+Target correlation: empirical point-biserial ≈ 0.3
+
+Figures included (for each k and sample size)
+
+Mutual Information (MI) estimates
+
+SHAP summary plots for Class 0 and Class 1, all features vs oracle-informative only
+
+Confusion matrices
+
+ROC curves
+
+Each configuration compares:
+
+Training with all features
+
+Training with oracle-informative features only
+
+**Key conclusion supported by the figures**
+
+Feature pruning yields the largest performance gains under data scarcity, with:
+
+Clearer ROC separation
+
+More stable confusion matrices
+
+Concentrated SHAP attributions
+
+As sample size increases, performance differences diminish, indicating that sufficient data allows models to attenuate irrelevant inputs through learning and regularisation.
+
+---
+
+## 📜 Licence
+
+This code is released under the MIT License, allowing reuse, modification, and redistribution with attribution.
+
+---
+
+## 👤 Author
+
+Nicholas Christakis
+Institute for Advanced Modelling and Simulation
+University of Nicosia, Cyprus
+
+📧 christakis.n@unic.ac.cy
+
+## 📌 Citation
+
+If you use this code or supplementary material, please cite the corresponding NEUROCOMPUTING submission.

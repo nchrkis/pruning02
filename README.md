@@ -18,6 +18,10 @@ The repository includes:
 
 ## 📁 Repository Structure
 ├── synthetic_data_generator.py
-├── synth_figures_nc.pdf
+
+├── Synthetic_data_analysis.pdf
+
 ├── README.md
+
 └── LICENSE
+

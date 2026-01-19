@@ -30,7 +30,7 @@ The repository includes:
 - **`synthetic_data_generator.py`**  
   Python script that generates synthetic tabular datasets with controlled statistical properties (correlation strength, feature relevance, redundancy, and temporal structure).
 
-- **`synth_figures_nc.pdf`**  
+- **`Synthetic_data_analysis.pdf`**  
   Supplementary material document containing all figures and experimental results based on synthetic data, referenced in the paper.
 
 - **`LICENSE`**  
@@ -96,5 +96,23 @@ Install the required Python packages:
 ```bash
 pip install numpy pandas scikit-learn matplotlib seaborn scipy
 
+Run the script directly:
 
+python synthetic_data_generator.py
+
+
+This will generate:
+
+synthetic_feature_selection_dataset.csv
+
+
+containing:
+
+Continuous predictors X1 ... Xn
+
+Optional transformed features
+
+Binary target variable Y
+
+---
 

@@ -95,11 +95,13 @@ Install the required Python packages:
 
 ```bash
 pip install numpy pandas scikit-learn matplotlib seaborn scipy
+```
 
 Run the script directly:
 
+```bash
 python synthetic_data_generator.py
-
+```
 
 This will generate:
 

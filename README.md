@@ -105,7 +105,7 @@ python synthetic_data_generator.py
 
 This will generate:
 
-synthetic_feature_selection_dataset.csv
+``synthetic_feature_selection_dataset.csv''
 
 
 containing:

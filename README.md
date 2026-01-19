@@ -3,7 +3,9 @@
 This repository contains the **complete supplementary material** for the paper:
 
 > **Selective Medical Intelligence: Optimising AI-Based Breast Cancer Diagnosis Classification Through Adaptive Data Filtering**
+> 
 > Nicholas Christakis, Panagiotis Tirchas, Dimitris Drikakis
+> 
 > *Submitted to* **NEUROCOMPUTING** (2026)
 
 The repository includes:

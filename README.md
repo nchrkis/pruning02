@@ -20,13 +20,13 @@ The repository includes:
 ---
 
 ## 📁 Repository Structure
-├── synthetic_data_generator.py
+├──  LICENSE
+
+├── README.md 
 
 ├── Synthetic_data_analysis.pdf
 
-├── README.md
-
-└── LICENSE
+└──  synthetic_data_generator.py
 
 ### File descriptions
 

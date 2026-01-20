@@ -239,8 +239,8 @@ This code is released under the MIT License, allowing reuse, modification, and r
 
 ## 👤 Author
 
-Nicholas Christakis
-Institute for Advanced Modelling and Simulation
+Nicholas Christakis,
+Institute for Advanced Modelling and Simulation,
 University of Nicosia, Cyprus
 
 📧 christakis.n@unic.ac.cy

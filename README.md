@@ -143,7 +143,7 @@ Pearson correlation captures only linear associations and may:
 
 - Be misleading when feature distributions are non-Gaussian or discretised
 
-***Intended role in this repository**
+**Intended role in this repository**
 
 The correlation outputs are included solely to verify that:
 
@@ -191,11 +191,11 @@ Sample size: 10,000 (plus 10% and 1% subsamples)
 
 Oracle-informative features:
 
-k=2
+- k=2
 
-k=10
+- k=10
 
-k=18
+- k=18
 
 Binary outcome: approximately balanced classes
 
